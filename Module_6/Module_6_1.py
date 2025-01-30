@@ -22,7 +22,7 @@ class Mammal(Animal):                                   # Класс насле�
             print(f'{self.name} не стал есть {food.name}')
             self.alive = False
 
-class Predator(Animal):                                          # Класс наследующий классу Animal - Хищники
+class Predator(Animal):                                 # Класс наследующий классу Animal - Хищники
     def eat(self, food):
         if food.edible:
             print(f'{self.name} сьел {food.name}')
